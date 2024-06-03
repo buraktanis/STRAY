@@ -1,4 +1,4 @@
-# KotlinProject(Stray)
+# STRAY
 It is an application that has been developed and is being developed for people to easily adopt and feed animals.
 
 ![home](https://github.com/kaansimseq/KotlinProject/assets/114625102/e5e20fb9-eea6-4380-9667-48e8f24fbd7a)
