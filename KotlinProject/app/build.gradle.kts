@@ -2,6 +2,8 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
+    id ("org.sonarqube" version "5.0.0.4638")
+
 }
 
 android {
@@ -40,6 +42,13 @@ android {
     }
     buildFeatures{
         viewBinding = true
+    }
+}
+
+sonar {
+    properties {
+        property("sonar.projectKey", "stray")
+        property("sonar.projectName", "stray")
     }
 }
 
